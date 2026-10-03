@@ -1,0 +1,114 @@
+// Roboto font
+@font-face {
+    font-family: "Roboto Condensed";
+    src: url('./../font/RobotoCondensed-ExtraBold.woff');
+    font-style: normal;
+    font-weight: 900;
+}
+@font-face {
+    font-family: "Roboto Condensed";
+    src: url('./../font/RobotoCondensed-Bold.woff');
+    font-style: normal;
+    font-weight: 800;
+}
+@font-face {
+    font-family: "Roboto Condensed";
+    src: url('./../font/RobotoCondensed-SemiBold.woff');
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Roboto Condensed";
+    src: url('./../font/RobotoCondensed-Medium.woff');
+    font-style: normal;
+    font-weight: 600;
+}
+@font-face {
+    font-family: "Roboto Condensed";
+    src: url('./../font/RobotoCondensed-Black.woff');
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Roboto Condensed";
+    src: url('./../font/RobotoCondensed-Regular.woff');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Roboto Condensed";
+    src: url('./../font/RobotoCondensed-Light.woff');
+    font-style: normal;
+    font-weight: 300;
+}
+@font-face {
+    font-family: "Roboto Condensed";
+    src: url('./../font/RobotoCondensed-Thin.woff');
+    font-style: normal;
+    font-weight: 100;
+}
+
+// Teko font
+@font-face {
+    font-family: "Teko";
+    src: url('./../font/Teko-Bold.woff');
+    font-style: normal;
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "Teko";
+    src: url('./../font/Teko-SemiBold.woff');
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Teko";
+    src: url('./../font/Teko-Medium.woff');
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Teko";
+    src: url('./../font/Teko-Regular.woff');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Teko";
+    src: url('./../font/Teko-Light.woff');
+    font-style: normal;
+    font-weight: 300;
+}
+
+$font-size-normal: 15px;
+$font-size-medium: 20px;
+$font-size-learge: 25px;
+
+// @mixin heading1 {
+
+// }
+
+.imgbox_full,
+.imgbox {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.imgbox_full {
+    height: 100%;
+
+    img {
+        height: 100%;
+        object-fit: cover;
+    }
+}
